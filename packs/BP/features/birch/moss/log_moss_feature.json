@@ -1,0 +1,15 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:birch/moss/log_moss_feature"
+        },
+        "iterations": 1,
+        "scatter_chance": 25,
+        "x": 0,
+        "z": 0,
+        "y": 1,
+        "project_input_to_floor": false,
+        "places_feature": "smokey_gen:birch/moss/moss"
+    }
+}

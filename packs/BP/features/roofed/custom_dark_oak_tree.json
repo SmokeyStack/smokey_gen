@@ -1,0 +1,108 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:tree_feature": {
+        "description": {
+            "identifier": "smokey_gen:roofed/custom_dark_oak_tree"
+        },
+        "base_block": [
+            "minecraft:dirt",
+            {
+                "name": "minecraft:dirt",
+                "states": {
+                    "dirt_type": "coarse"
+                }
+            }
+        ],
+        "may_grow_on": [
+            "minecraft:grass",
+            "minecraft:dirt",
+            "minecraft:podzol",
+            {
+                "name": "minecraft:dirt",
+                "states": {
+                    "dirt_type": "coarse"
+                }
+            }
+        ],
+        "may_replace": [
+            "minecraft:air",
+            {
+                "name": "minecraft:leaves",
+                "states": {
+                    "old_leaf_type": "oak"
+                }
+            },
+            {
+                "name": "minecraft:leaves",
+                "states": {
+                    "old_leaf_type": "spruce"
+                }
+            },
+            {
+                "name": "minecraft:leaves",
+                "states": {
+                    "old_leaf_type": "birch"
+                }
+            },
+            {
+                "name": "minecraft:leaves",
+                "states": {
+                    "old_leaf_type": "jungle"
+                }
+            },
+            {
+                "name": "minecraft:leaves2",
+                "states": {
+                    "new_leaf_type": "acacia"
+                }
+            },
+            {
+                "name": "minecraft:leaves2",
+                "states": {
+                    "new_leaf_type": "dark_oak"
+                }
+            }
+        ],
+        "may_grow_through": [
+            "minecraft:dirt",
+            "minecraft:grass",
+            {
+                "name": "minecraft:dirt",
+                "states": {
+                    "dirt_type": "coarse"
+                }
+            }
+        ],
+        "mega_trunk": {
+            "trunk_width": 2,
+            "trunk_height": {
+                "base": 12,
+                "intervals": [
+                    3,
+                    4
+                ]
+            },
+            "trunk_block": {
+                "name": "minecraft:log2",
+                "states": {
+                    "new_log_type": "dark_oak"
+                }
+            },
+            "trunk_decoration": {
+                "decoration_block": "minecraft:glow_lichen",
+                "decoration_chance": 33.33
+            }
+        },
+        "mega_canopy": {
+            "canopy_height": 1,
+            "base_radius": 1,
+            "core_width": 1,
+            "leaf_block": {
+                "name": "minecraft:leaves2",
+                "states": {
+                    "new_leaf_type": "dark_oak"
+                }
+            }
+        }
+    }
+}

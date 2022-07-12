@@ -1,0 +1,20 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "smokey_gen:birch/flowers/oxeye"
+        },
+        "places_block": {
+            "name": "minecraft:red_flower",
+            "states": {
+                "flower_type": "oxeye"
+            }
+        },
+        "enforce_survivability_rules": true,
+        "enforce_placement_rules": true,
+        "may_attach_to": {
+            "auto_rotate": false,
+            "bottom": "minecraft:grass"
+        }
+    }
+}

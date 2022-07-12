@@ -1,0 +1,43 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "smokey_gen:swamp_dripleaf_feature",
+            "places_feature": "smokey_gen:swamp/dripleaf"
+        },
+        "conditions": {
+            "placement_pass": "surface_pass",
+            "minecraft:biome_filter": {
+                "any_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "swamp"
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": 1,
+            "scatter_chance": {
+                "numerator": 1,
+                "denominator": 10
+            },
+            "x": {
+                "distribution": "gaussian",
+                "extent": [
+                    0,
+                    16
+                ]
+            },
+            "y": "q.heightmap(v.worldx, v.worldz)",
+            "z": {
+                "distribution": "gaussian",
+                "extent": [
+                    0,
+                    16
+                ]
+            }
+        }
+    }
+}

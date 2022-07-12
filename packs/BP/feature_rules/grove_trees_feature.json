@@ -1,0 +1,50 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "smokey_gen:grove_trees_feature",
+            "places_feature": "smokey_gen:generic/check_tree"
+        },
+        "conditions": {
+            "placement_pass": "after_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "grove"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "taiga"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 6,
+            "scatter_chance": {
+                "numerator": 9,
+                "denominator": 10
+            },
+            "x": {
+                "distribution": "uniform",
+                "extent": [
+                    0,
+                    15
+                ]
+            },
+            "y": "q.heightmap(v.worldx, v.worldz)",
+            "z": {
+                "distribution": "uniform",
+                "extent": [
+                    0,
+                    15
+                ]
+            }
+        }
+    }
+}

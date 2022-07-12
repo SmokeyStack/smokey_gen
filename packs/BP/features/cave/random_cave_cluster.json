@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/random_cave_cluster"
+        },
+        "features": [
+            [
+                "smokey_gen:cave/andesite_boulder_snap_to_floor_feature",
+                1
+            ],
+            [
+                "smokey_gen:cave/ground/granite/cluster_snap_to_floor_feature",
+                1
+            ],
+            [
+                "smokey_gen:cave/ground/diorite/cluster_snap_to_floor_feature",
+                1
+            ]
+        ]
+    }
+}

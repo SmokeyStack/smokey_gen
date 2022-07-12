@@ -1,0 +1,13 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:snow/snow_layer"
+        },
+        "iterations": 1,
+        "places_feature": "smokey_gen:snow/random_snow",
+        "x": 0,
+        "z": 0,
+        "y": "q.above_top_solid(v.worldx, v.worldz)"
+    }
+}

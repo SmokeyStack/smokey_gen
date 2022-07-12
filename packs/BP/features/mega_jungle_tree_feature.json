@@ -1,0 +1,102 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:tree_feature": {
+		"description": {
+			"identifier": "minecraft:mega_jungle_tree_feature"
+		},
+		"base_block": [
+			"minecraft:dirt"
+		],
+		"may_replace": [
+			"minecraft:air",
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "oak"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "spruce"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "birch"
+				}
+			},
+			{
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "jungle"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "acacia"
+				}
+			},
+			{
+				"name": "minecraft:leaves2",
+				"states": {
+					"new_leaf_type": "dark_oak"
+				}
+			}
+		],
+		"fancy_trunk": {
+			"trunk_block": {
+				"name": "minecraft:log",
+				"states": {
+					"old_log_type": "jungle"
+				}
+			},
+			"trunk_height": {
+				"base": 24,
+				"variance": 9,
+				"scale": 1
+			},
+			"trunk_width": 3,
+			"width_scale": 2,
+			"foliage_altitude_factor": 0.5,
+			"branches": {
+				"slope": 0.33,
+				"density": 0.25,
+				"min_altitude_factor": 0
+			}
+		},
+		"fancy_canopy": {
+			"height": 3,
+			"radius": 4,
+			"leaf_block": {
+				"name": "minecraft:leaves",
+				"states": {
+					"old_leaf_type": "jungle"
+				}
+			}
+		},
+		"may_grow_on": [
+			"minecraft:grass",
+			"minecraft:dirt",
+			"minecraft:podzol",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			}
+		],
+		"may_grow_through": [
+			"minecraft:dirt",
+			"minecraft:grass",
+			{
+				"name": "minecraft:dirt",
+				"states": {
+					"dirt_type": "coarse"
+				}
+			}
+		]
+	}
+}

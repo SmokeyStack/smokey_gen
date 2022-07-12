@@ -1,0 +1,32 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/slab/andesite"
+        },
+        "places_block": {
+            "name": "minecraft:stone_slab3",
+            "states": {
+                "stone_slab_type_3": "andesite"
+            }
+        },
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": true,
+        "may_attach_to": {
+            "auto_rotate": false,
+            "min_sides_must_attach": 1,
+            "bottom": {
+                "name": "minecraft:stone",
+                "states": {
+                    "stone_type": "andesite"
+                }
+            },
+            "sides": {
+                "name": "minecraft:stone",
+                "states": {
+                    "stone_type": "andesite"
+                }
+            }
+        }
+    }
+}

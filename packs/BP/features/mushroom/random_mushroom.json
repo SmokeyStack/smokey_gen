@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:mushroom/random_mushroom"
+        },
+        "features": [
+            [
+                "smokey_gen:mushroom/brown_mushroom_top",
+                1
+            ],
+            [
+                "smokey_gen:mushroom/red_mushroom_top",
+                1
+            ]
+        ]
+    }
+}

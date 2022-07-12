@@ -1,0 +1,16 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "smokey_gen:snow/snow"
+        },
+        "places_block": "minecraft:snow",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": true,
+        "may_attach_to": {
+            "auto_rotate": false,
+            "min_sides_must_attach": 1,
+            "sides": "minecraft:grass"
+        }
+    }
+}

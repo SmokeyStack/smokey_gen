@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:conditional_list": {
+        "description": {
+            "identifier": "smokey_gen:generic/check_geode"
+        },
+        "conditional_features": [
+            {
+                "places_feature": "minecraft:amethyst_geode_feature",
+                "condition": "query.heightmap(v.worldx, v.worldz) < 80"
+            },
+            {
+                "places_feature": "smokey_gen:generic/mega_geode",
+                "condition": 1
+            }
+        ],
+        "early_out_scheme": "placement_success"
+    }
+}

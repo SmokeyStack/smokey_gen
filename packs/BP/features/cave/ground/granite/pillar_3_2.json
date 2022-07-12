@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/ground/granite/pillar_3_2"
+        },
+        "iterations": 3,
+        "places_feature": "smokey_gen:cave/granite",
+        "x": 1,
+        "z": 0,
+        "y": {
+            "extent": [
+                0,
+                2
+            ],
+            "distribution": "fixed_grid"
+        }
+    }
+}

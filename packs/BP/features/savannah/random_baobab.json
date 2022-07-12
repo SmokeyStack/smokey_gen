@@ -1,0 +1,30 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:savannah/random_baobab"
+        },
+        "features": [
+            [
+                "smokey_gen:savannah/savannah_baobab_1",
+                10
+            ],
+            [
+                "smokey_gen:savannah/savannah_baobab_2",
+                10
+            ],
+            [
+                "smokey_gen:savannah/savannah_baobab_3",
+                20
+            ],
+            [
+                "smokey_gen:savannah/savannah_baobab",
+                5
+            ],
+            [
+                "smokey_gen:savannah/savannah_baobab_4",
+                55
+            ]
+        ]
+    }
+}

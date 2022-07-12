@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:stone_beach/replacement"
+        },
+        "iterations": 13,
+        "places_feature": "smokey_gen:stone_beach/water",
+        "x": 0,
+        "z": 0,
+        "y": {
+            "extent": [
+                0,
+                "12"
+            ],
+            "distribution": "fixed_grid"
+        }
+    }
+}

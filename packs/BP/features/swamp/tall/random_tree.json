@@ -1,0 +1,26 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:swamp/tall/random_tree"
+        },
+        "features": [
+            [
+                "smokey_gen:swamp/tall/special",
+                1
+            ],
+            [
+                "smokey_gen:swamp/tall/giant",
+                2
+            ],
+            [
+                "smokey_gen:swamp/tall/willow",
+                1
+            ],
+            [
+                "smokey_gen:swamp/tall/tree",
+                6
+            ]
+        ]
+    }
+}

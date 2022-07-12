@@ -1,0 +1,39 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "smokey_gen:desert_dunes_placement",
+            "places_feature": "smokey_gen:desert/dunes"
+        },
+        "conditions": {
+            "placement_pass": "first_pass",
+            "minecraft:biome_filter": {
+                "any_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "desert"
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": 256,
+            "x": {
+                "extent": [
+                    0,
+                    15
+                ],
+                "distribution": "fixed_grid"
+            },
+            "y": "q.above_top_solid(v.worldx, v.worldz)",
+            "z": {
+                "extent": [
+                    0,
+                    15
+                ],
+                "distribution": "fixed_grid"
+            }
+        }
+    }
+}

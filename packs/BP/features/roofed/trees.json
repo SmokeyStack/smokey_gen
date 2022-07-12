@@ -1,0 +1,26 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:roofed/trees"
+        },
+        "features": [
+            [
+                "smokey_gen:roofed/custom_dark_oak_tree",
+                33
+            ],
+            [
+                "smokey_gen:roofed/custom_birch_tree",
+                17
+            ],
+            [
+                "smokey_gen:roofed/twilight",
+                33
+            ],
+            [
+                "smokey_gen:roofed/custom_oak_tree",
+                17
+            ]
+        ]
+    }
+}

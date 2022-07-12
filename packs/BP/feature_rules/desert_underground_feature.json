@@ -1,0 +1,39 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "smokey_gen:desert_underground_feature",
+            "places_feature": "smokey_gen:desert/sand_grid"
+        },
+        "conditions": {
+            "placement_pass": "before_underground_pass",
+            "minecraft:biome_filter": {
+                "any_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "desert"
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": 256,
+            "x": {
+                "extent": [
+                    0,
+                    15
+                ],
+                "distribution": "fixed_grid"
+            },
+            "y": 0,
+            "z": {
+                "extent": [
+                    0,
+                    15
+                ],
+                "distribution": "fixed_grid"
+            }
+        }
+    }
+}

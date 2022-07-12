@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/ceiling/diorite/pillar_5"
+        },
+        "iterations": 5,
+        "places_feature": "smokey_gen:cave/diorite",
+        "x": 1,
+        "z": 2,
+        "y": {
+            "extent": [
+                -4,
+                0
+            ],
+            "distribution": "fixed_grid"
+        }
+    }
+}

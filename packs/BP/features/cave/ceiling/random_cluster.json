@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/ceiling/random_cluster"
+        },
+        "features": [
+            [
+                "smokey_gen:cave/ceiling/granite/cluster_snap_to_ceiling_feature",
+                1
+            ],
+            [
+                "smokey_gen:cave/ceiling/diorite/cluster_snap_to_ceiling_feature",
+                1
+            ]
+        ]
+    }
+}

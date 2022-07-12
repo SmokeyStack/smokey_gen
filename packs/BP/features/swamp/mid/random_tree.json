@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:swamp/mid/random_tree"
+        },
+        "features": [
+            [
+                "smokey_gen:swamp/mid/special",
+                2
+            ],
+            [
+                "smokey_gen:swamp/mid/tree",
+                8
+            ]
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:geode_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/andesite_boulder"
+        },
+        "filler": {
+            "name": "minecraft:stone",
+            "states": {
+                "stone_type": "andesite"
+            }
+        },
+        "inner_layer": {
+            "name": "minecraft:stone",
+            "states": {
+                "stone_type": "andesite"
+            }
+        },
+        "alternate_inner_layer": {
+            "name": "minecraft:stone",
+            "states": {
+                "stone_type": "andesite"
+            }
+        },
+        "middle_layer": {
+            "name": "minecraft:stone",
+            "states": {
+                "stone_type": "andesite"
+            }
+        },
+        "outer_layer": {
+            "name": "minecraft:stone",
+            "states": {
+                "stone_type": "andesite"
+            }
+        },
+        "min_outer_wall_distance": 1,
+        "max_outer_wall_distance": 2,
+        "min_distribution_points": 2,
+        "max_distribution_points": 3,
+        "min_point_offset": 1,
+        "max_point_offset": 4,
+        "max_radius": 4,
+        "crack_point_offset": 0,
+        "generate_crack_chance": 0.0,
+        "base_crack_size": 0.0,
+        "noise_multiplier": 0.08,
+        "use_potential_placements_chance": 0.0,
+        "use_alternate_layer0_chance": 0.0,
+        "placements_require_layer0_alternate": false,
+        "invalid_blocks_threshold": 5
+    }
+}

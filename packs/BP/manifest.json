@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Smokey's World Generation",
+        "description": "Made By SmokeyStack",
+        "uuid": "e4d620ac-e0a8-405e-a284-ecf07b5bcd4f",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "06a780ec-435f-4cdf-894a-a4ec1e1df939",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

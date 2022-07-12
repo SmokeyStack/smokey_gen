@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:generic/small/random_tree"
+        },
+        "features": [
+            [
+                "smokey_gen:generic/small/pine_small",
+                55
+            ],
+            [
+                "smokey_gen:generic/small/mega_spruce_small",
+                10
+            ],
+            [
+                "smokey_gen:generic/small/spruce_small",
+                35
+            ]
+        ]
+    }
+}

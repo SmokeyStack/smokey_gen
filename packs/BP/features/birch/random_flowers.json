@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:birch/random_flowers"
+        },
+        "features": [
+            [
+                "smokey_gen:birch/flowers/lily_of_the_valley",
+                1
+            ],
+            [
+                "smokey_gen:birch/flowers/oxeye",
+                1
+            ]
+        ]
+    }
+}

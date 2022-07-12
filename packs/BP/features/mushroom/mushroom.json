@@ -1,0 +1,12 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "smokey_gen:mushroom/mushroom"
+        },
+        "features": [
+            "smokey_gen:mushroom/stem",
+            "smokey_gen:mushroom/random_mushroom"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:generic/grass/random_grass"
+        },
+        "features": [
+            [
+                "minecraft:tall_grass_feature",
+                50
+            ],
+            [
+                "minecraft:fern_feature",
+                25
+            ],
+            [
+                "minecraft:fern_double_plant_feature",
+                12
+            ]
+        ]
+    }
+}

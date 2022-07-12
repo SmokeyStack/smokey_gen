@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:birch/random_flowers_2"
+        },
+        "features": [
+            [
+                "smokey_gen:birch/flowers/cornflower",
+                1
+            ],
+            [
+                "smokey_gen:birch/flowers/pink_tulip",
+                1
+            ]
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/ceiling/granite/cluster"
+        },
+        "features": [
+            "smokey_gen:cave/ceiling/granite/pillar_1",
+            "smokey_gen:cave/ceiling/granite/pillar_4",
+            "smokey_gen:cave/ceiling/granite/pillar_3",
+            "smokey_gen:cave/ceiling/granite/pillar_3_2",
+            "smokey_gen:cave/ceiling/granite/pillar_7",
+            "smokey_gen:cave/ceiling/granite/pillar_5",
+            "smokey_gen:cave/ceiling/granite/pillar_2",
+            "smokey_gen:cave/ceiling/granite/pillar_3_3",
+            "smokey_gen:cave/ceiling/granite/pillar_4_2"
+        ]
+    }
+}

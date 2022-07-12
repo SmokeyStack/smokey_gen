@@ -1,0 +1,74 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "smokey_gen:stony_peak_dunes_placement",
+            "places_feature": "smokey_gen:stony_peak/dunes"
+        },
+        "conditions": {
+            "placement_pass": "first_pass",
+            "minecraft:biome_filter": {
+                "all_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "mountains"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "monster"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "overworld"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "!=",
+                        "value": "frozen_peaks"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "!=",
+                        "value": "grove"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "!=",
+                        "value": "jagged_peaks"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "!=",
+                        "value": "meadow"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "!=",
+                        "value": "snowy_slopes"
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": 256,
+            "x": {
+                "extent": [
+                    0,
+                    15
+                ],
+                "distribution": "fixed_grid"
+            },
+            "y": "q.heightmap(v.worldx, v.worldz)",
+            "z": {
+                "extent": [
+                    0,
+                    15
+                ],
+                "distribution": "fixed_grid"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:generic/tall/random_tree"
+        },
+        "features": [
+            [
+                "smokey_gen:generic/tall/pine_tall",
+                1
+            ],
+            [
+                "smokey_gen:generic/tall/mega_spruce_tall",
+                75
+            ],
+            [
+                "smokey_gen:generic/tall/spruce_tall",
+                24
+            ]
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:cave/deepslate_slab"
+        },
+        "iterations": 50,
+        "places_feature": "smokey_gen:cave/slab/deepslate",
+        "x": 0,
+        "z": 0,
+        "y": {
+            "extent": [
+                0,
+                49
+            ],
+            "distribution": "fixed_grid"
+        }
+    }
+}

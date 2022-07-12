@@ -1,0 +1,66 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "smokey_gen:birch/branch"
+        },
+        "places_block": {
+            "name": "minecraft:wood",
+            "states": {
+                "wood_type": "birch"
+            }
+        },
+        "enforce_survivability_rules": true,
+        "enforce_placement_rules": true,
+        "may_attach_to": {
+            "auto_rotate": false,
+            "min_sides_must_attach": 1,
+            "top": [
+                "minecraft:air"
+            ],
+            "west": [
+                {
+                    "name": "minecraft:log",
+                    "states": {
+                        "old_log_type": "oak"
+                    }
+                },
+                {
+                    "name": "minecraft:log",
+                    "states": {
+                        "old_log_type": "birch"
+                    }
+                }
+            ],
+            "north": [
+                {
+                    "name": "minecraft:log",
+                    "states": {
+                        "old_log_type": "oak"
+                    }
+                },
+                {
+                    "name": "minecraft:log",
+                    "states": {
+                        "old_log_type": "birch"
+                    }
+                }
+            ],
+            "east": [
+                {
+                    "name": "minecraft:log",
+                    "states": {
+                        "old_log_type": "oak"
+                    }
+                },
+                {
+                    "name": "minecraft:log",
+                    "states": {
+                        "old_log_type": "birch"
+                    }
+                }
+            ],
+            "south": "minecraft:air"
+        }
+    }
+}

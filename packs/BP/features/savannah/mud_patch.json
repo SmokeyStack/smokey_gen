@@ -1,0 +1,30 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:savannah/mud_patch"
+        },
+        "places_feature": "smokey_gen:savannah/mud",
+        "scatter_chance": {
+            "numerator": 2,
+            "denominator": 3
+        },
+        "iterations": "v.mud_patch.size = 16 + q.noise(v.worldx, v.worldz) * 20; return math.random_integer(math.pow(v.mud_patch.size, 2) / 4, math.pow(v.mud_patch.size, 2) / 3);",
+        "project_input_to_floor": true,
+        "x": {
+            "distribution": "gaussian",
+            "extent": [
+                0,
+                "v.mud_patch.size"
+            ]
+        },
+        "z": {
+            "distribution": "gaussian",
+            "extent": [
+                0,
+                "v.mud_patch.size"
+            ]
+        },
+        "y": "q.heightmap(v.worldx, v.worldz)-1"
+    }
+}

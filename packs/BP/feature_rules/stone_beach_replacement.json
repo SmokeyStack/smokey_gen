@@ -1,0 +1,54 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "smokey_gen:stone_beach_replacement",
+            "places_feature": "smokey_gen:stone_beach/replacement"
+        },
+        "conditions": {
+            "placement_pass": "first_pass",
+            "minecraft:biome_filter": {
+                "all_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "beach"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "monster"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "overworld"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "==",
+                        "value": "stone"
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": 4225,
+            "x": {
+                "extent": [
+                    -32,
+                    32
+                ],
+                "distribution": "fixed_grid"
+            },
+            "y": 50,
+            "z": {
+                "extent": [
+                    -32,
+                    32
+                ],
+                "distribution": "fixed_grid"
+            }
+        }
+    }
+}

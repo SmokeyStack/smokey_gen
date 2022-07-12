@@ -1,0 +1,20 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "smokey_gen:mushroom/red_mushroom"
+        },
+        "places_block": {
+            "name": "minecraft:red_mushroom_block",
+            "states": {
+                "huge_mushroom_bits": 14
+            }
+        },
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_attach_to": {
+            "min_sides_must_attach": 1,
+            "bottom": "minecraft:end_rod"
+        }
+    }
+}

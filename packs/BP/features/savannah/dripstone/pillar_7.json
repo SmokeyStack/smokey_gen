@@ -1,0 +1,20 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "smokey_gen:savannah/dripstone/pillar_7"
+        },
+        "iterations": 7,
+        "places_feature": "smokey_gen:savannah/dripstone/dripstone",
+        "project_input_to_floor": true,
+        "x": 1,
+        "z": 1,
+        "y": {
+            "extent": [
+                0,
+                6
+            ],
+            "distribution": "fixed_grid"
+        }
+    }
+}
