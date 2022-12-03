@@ -1,0 +1,36 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:tree_feature": {
+        "acacia_canopy": {
+            "canopy_size": 2,
+            "leaf_block": "nether_wart_block"
+        },
+        "base_block": [
+            "minecraft:netherrack"
+        ],
+        "description": {
+            "identifier": "smokey_gen:crimson/tree"
+        },
+        "may_grow_on": [
+            "minecraft:netherrack",
+            "minecraft:crimson_nylium"
+        ],
+        "may_grow_through": [
+            "minecraft:netherrack",
+            "minecraft:crimson_nylium"
+        ],
+        "may_replace": [
+            "minecraft:air",
+            "minecraft:nether_wart_block"
+        ],
+        "trunk": {
+            "trunk_block": {
+                "name": "minecraft:crimson_stem"
+            },
+            "trunk_height": {
+                "range_max": 13,
+                "range_min": 10
+            }
+        }
+    }
+}

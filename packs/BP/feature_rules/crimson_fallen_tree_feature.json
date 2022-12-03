@@ -1,0 +1,47 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "smokey_gen:crimson_fallen_tree_feature",
+            "places_feature": "smokey_gen:crimson/fallen"
+        },
+        "conditions": {
+            "placement_pass": "surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "crimson_forest"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 32,
+            "x": {
+                "distribution": "uniform",
+                "extent": [
+                    0,
+                    15
+                ]
+            },
+            "y": {
+                "distribution": "uniform",
+                "extent": [
+                    0,
+                    128
+                ]
+            },
+            "z": {
+                "distribution": "uniform",
+                "extent": [
+                    0,
+                    15
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "smokey_gen:crimson/random_fungi"
+        },
+        "features": [
+            [
+                "smokey_gen:crimson/flower",
+                4
+            ],
+            [
+                "smokey_gen:crimson/tree",
+                6
+            ]
+        ]
+    }
+}
