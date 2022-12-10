@@ -6,7 +6,7 @@
         },
         "places_block": "minecraft:crimson_fungus",
         "enforce_survivability_rules": false,
-        "enforce_placement_rules": true,
+        "enforce_placement_rules": false,
         "may_replace": [
             "minecraft:air"
         ]
