@@ -1,27 +1,26 @@
 {
     "format_version": "1.13.0",
-    "minecraft:conditional_list": {
+    "minecraft:weighted_random_feature": {
         "description": {
             "identifier": "smokey_gen:generic/check_tree"
         },
-        "conditional_features": [
-            {
-                "places_feature": "smokey_gen:generic/tiny/random_tree",
-                "condition": "query.noise(v.worldx/256, v.worldz/256) < 0"
-            },
-            {
-                "places_feature": "smokey_gen:generic/small/random_tree",
-                "condition": "query.noise(v.worldx/256, v.worldz/256) < 0.25"
-            },
-            {
-                "places_feature": "smokey_gen:generic/mid/random_tree",
-                "condition": "query.noise(v.worldx/256, v.worldz/256) < 0.75"
-            },
-            {
-                "places_feature": "smokey_gen:generic/tall/random_tree",
-                "condition": 1
-            }
-        ],
-        "early_out_scheme": "placement_success"
+        "features": [
+            [
+                "smokey_gen:generic/tiny/random_tree",
+                1
+            ],
+            [
+                "smokey_gen:generic/small/random_tree",
+                1
+            ],
+            [
+                "smokey_gen:generic/mid/random_tree",
+                1
+            ],
+            [
+                "smokey_gen:generic/tall/random_tree",
+                1
+            ]
+        ]
     }
 }
